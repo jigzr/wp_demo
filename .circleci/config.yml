@@ -1,0 +1,10 @@
+commands:
+  saywhat: # command name
+    description: "A say what command"
+    parameters:
+      what:
+        type: string
+        default: "Something"
+    steps:
+      # It can be more than one action per command
+      - run: echo << parameters.what >> 
