@@ -16,6 +16,6 @@ jobs:
       - checkout
       
       - run:
-          name: Test Models
+          name: Test Case 1
           command: |-
             echo "Testing Models"
