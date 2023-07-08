@@ -24,4 +24,4 @@ jobs:
       - run:
           name: Test Case 2
           command: |-
-            echo "Running Test 123"
+            echo "Running Test"
