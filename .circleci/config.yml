@@ -19,3 +19,9 @@ jobs:
           name: Test Case 1
           command: |-
             echo "Testing Models"
+
+      
+      - run:
+          name: Test Case 2
+          command: |-
+            echo "Testing Models"
